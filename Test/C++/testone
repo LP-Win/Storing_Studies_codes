@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+main(){
+    int value1, value2, max;
+    cout<<"Input the value1 here: "; cin>>value1;
+    cout<<"Input the value2 here: "; cin>>value2;
+
+
+
+
+
+    return 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+
+        form{
+            width: 40%;
+            margin: auto;
+            box-shadow: 0 0 1px 1px lightslategray;
+            padding: 15px;
+            border-radius: 8px;
+
+        }
+        .control{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;   
+            gap: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div class="control">
+            <label for="username">Username</label>
+            <input id="username" type="Username" placeholder="Enter Password">
+        </div>
+        <div>
+            <div class="control">
+            <label for="password">Password</label>
+            <input id="password" placeholder="Enter Password">
+        </div>
+        <div class="control-inline" style="margin-bottom: 10px;">
+            <input type="checkbox">
+            <a href="#">Remember password?</a>
+        </div>
+        <input type="submit" value="Log in">
+    </form>
+</body>
+</html>
