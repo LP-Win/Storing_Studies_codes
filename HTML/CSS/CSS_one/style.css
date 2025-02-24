@@ -1,0 +1,11 @@
+.div02 h3, .div02 h2{
+    color: green;
+}
+
+div h3,h2{
+    color: blue;
+}
+
+div div h3{
+    color: red;
+}
