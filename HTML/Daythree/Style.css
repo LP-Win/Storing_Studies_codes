@@ -1,0 +1,44 @@
+form{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px 1px lightslategray;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.control{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;   
+    gap: 6px;
+    
+    
+}
+
+.control-inline{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border: none;   
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%); 
+    
+    
+}
+.control-inline:hover{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border: none;  
+    box-shadow: 0 0 2px 2px white; 
+    transition: 2s;
+
+}
+
+
+/**background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%);**/
