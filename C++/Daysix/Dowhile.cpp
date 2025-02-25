@@ -140,7 +140,7 @@ int main()
             if(month >= 1 && month <=12)
             {
                 cout<<"Month : "<<month<<" have : "<<day<<" Days"<<endl;
-            }sudo apt install xournalpp
+            }
             break;
             case 4:
             cout << "[<] Exit from the Program! [>]"<<endl;
