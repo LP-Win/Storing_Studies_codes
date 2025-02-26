@@ -9,3 +9,20 @@ div h3,h2{
 div div h3{
     color: red;
 }
+
+
+.btn{
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 7px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(255, 56, 56);
+    box-shadow: 0 0 5px 5px rgb(255, 243, 131);
+    transition: 1s;
+
+}
