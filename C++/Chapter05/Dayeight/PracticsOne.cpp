@@ -20,13 +20,23 @@ void printmenu(){
 
 float exchangeUSDKHR(bool isUSDToKHR){
     float amount;
+    string currency = (isUSDToKHR)? "($)": "(Riels)";
     cout<<"Enter Amount : "; cin>>amount;
+    cout<<"Amount : "<<amount<<currency<<endl;
+
+
     if(isUSDToKHR==true){
         return amount * 4000;
     }else {
         return amount / 4000;
     }
 
+}
+
+void pressentertocontinue(){
+    cout<<"\n ------------<< Press Enter To Continue >>------------"<<endl;
+    cin.ignore();
+    cin.get();
 }
 
 int main(){
@@ -40,7 +50,7 @@ int main(){
         switch (option)
         {
         case 1:
-        {
+        while(true){
             system("clear");
             int op;
             cout<<"1.Exchange From USD --> KHR"<<endl;
@@ -57,13 +67,16 @@ int main(){
                 cout<<"Result : "<<khr<<" $"<<endl;
             }else if(op==3){
                 cout<<"Exit"<<endl;
+                break;
             }else {
                 cout<<"Please try again !!"<<endl;
             }
+            pressentertocontinue();
         }
-            break;
+        break;
         case 2:{
             system("clear");
+                                                                                                                                                       
         
         }
             break;

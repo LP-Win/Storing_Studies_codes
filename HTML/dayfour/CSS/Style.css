@@ -1,0 +1,39 @@
+
+* {
+    font-family: "Inter", "Koh Santepheap", sans-serif;
+}
+
+div{
+    margin: auto;
+    width: 900px;
+    border: 3px solid blue;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.heading{
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    text-decoration: underline;
+    color: blue;
+    letter-spacing: 2px;
+
+}
+
+.text{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    width: 180px;
+    font-size: 20px;
+}
