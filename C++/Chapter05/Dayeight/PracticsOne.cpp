@@ -23,14 +23,11 @@ float exchangeUSDKHR(bool isUSDToKHR){
     string currency = (isUSDToKHR)? "($)": "(Riels)";
     cout<<"Enter Amount : "; cin>>amount;
     cout<<"Amount : "<<amount<<currency<<endl;
-
-
     if(isUSDToKHR==true){
         return amount * 4000;
     }else {
         return amount / 4000;
     }
-
 }
 
 void pressentertocontinue(){
