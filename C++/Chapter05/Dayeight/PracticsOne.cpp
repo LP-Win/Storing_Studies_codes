@@ -67,6 +67,7 @@ int main(){
                 break;
             }else {
                 cout<<"Please try again !!"<<endl;
+                pressentertocontinue();
             }
             pressentertocontinue();
         }
